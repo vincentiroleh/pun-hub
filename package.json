@@ -1,0 +1,22 @@
+{
+  "name": "pun-hub",
+  "version": "1.0.0",
+  "description": "Post and read pun with the rest of the world",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vincent Iroleh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^14.0.6",
+    "monk": "^7.3.2",
+    "morgan": "^1.10.0"
+  }
+}
